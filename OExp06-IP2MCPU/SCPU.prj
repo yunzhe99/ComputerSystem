@@ -1,0 +1,3 @@
+verilog work "CPU/SCPU_ctrl.v"
+verilog work "CPU/Data_path.v"
+verilog work "CPU/SCPU.v"

@@ -1,0 +1,75 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd IO -sd ipcore_dir -nt timestamp -i -p
+xc7k160t-ffg676-2L top.ngc top.ngd
+
+Reading NGO file "E:/zhezhe/moncpu/top.ngc" ...
+Loading design module "IO/SAnti_jitter.ngc"...
+Loading design module "IO/MIO_BUS.ngc"...
+Loading design module "IO/SSeg7_Dev.ngc"...
+Loading design module "IO/SEnter_2_32.ngc"...
+Loading design module "IO/Multi_8CH32.ngc"...
+Loading design module "IO/SPIO.ngc"...
+Loading design module "ipcore_dir/RAM_B.ngc"...
+Loading design module "ipcore_dir/ROM_D.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'U4/counter_out<0>' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  32
+
+Total memory usage is 220776 kilobytes
+
+Writing NGD file "top.ngd" ...
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   7 sec
+
+Writing NGDBUILD log file "top.bld"...

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\zhezhe\moncpu\top.ncd
+OUTFILE=E:\zhezhe\moncpu\top.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=E:\zhezhe\moncpu
+LICENSE=WebPack
+USER_INFO=__0_0_0

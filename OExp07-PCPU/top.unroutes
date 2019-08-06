@@ -1,0 +1,27 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sat May 04 20:42:07 2019
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 15 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   BTN_x<0>_IBUF
+   BTN_x<1>_IBUF
+   BTN_x<2>_IBUF
+   BTN_x<3>_IBUF
+   BTN_x<4>_IBUF
+   U1/RF_REAL/Mram_regs11_RAMD_D1_O
+   U1/RF_REAL/Mram_regs12_RAMD_D1_O
+   U1/RF_REAL/Mram_regs13_RAMD_D1_O
+   U1/RF_REAL/Mram_regs14_RAMD_D1_O
+   U1/RF_REAL/Mram_regs15_RAMD_D1_O
+   U1/RF_REAL/Mram_regs2_RAMD_D1_O
+   U1/RF_REAL/Mram_regs3_RAMD_D1_O
+   U1/RF_REAL/Mram_regs4_RAMD_D1_O
+   U1/RF_REAL/Mram_regs5_RAMD_D1_O
+   U1/RF_REAL/Mram_regs6_RAMD_D1_O
+
+

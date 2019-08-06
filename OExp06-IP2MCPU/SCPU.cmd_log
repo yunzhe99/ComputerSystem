@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "H:/labs/OExp06-IP2MCPU/SCPU.xst" -ofn "H:/labs/OExp06-IP2MCPU/SCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd IO -sd ipcore_dir -nt timestamp -uc CPU/Org-Sword.ucf -p xc7k160t-ffg676-1 SCPU.ngc SCPU.ngd  

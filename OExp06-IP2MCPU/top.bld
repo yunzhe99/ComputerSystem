@@ -1,0 +1,58 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: H:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd IO -sd ipcore_dir -nt timestamp -uc CPU/Org-Sword.ucf -p
+xc7k160t-ffg676-1 top.ngc top.ngd
+
+Reading NGO file "H:/labs/OExp06-IP2MCPU/top.ngc" ...
+Loading design module "IO/SAnti_jitter.ngc"...
+Loading design module "IO/MIO_BUS.ngc"...
+Loading design module "IO/SEnter_2_32.ngc"...
+Loading design module "IO/SSeg7_Dev.ngc"...
+Loading design module "ipcore_dir/RAM_B.ngc"...
+Loading design module "IO/Multi_8CH32.ngc"...
+Loading design module "IO/SPIO.ngc"...
+Loading design module "ipcore_dir/ROM_D.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "CPU/Org-Sword.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:119 - Constraint <NET "RDY"				LOC = U21   |>
+   [CPU/Org-Sword.ucf(17)]: This constraint cannot be distributed from the
+   design objects matching 'NET "RDY"' because those design objects do not
+   contain or drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "RDY"				LOC = U21   |> [CPU/Org-Sword.ucf(17)]' could not be found and
+   so the Locate constraint will be removed.
+
+WARNING:ConstraintSystem:119 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(17)]: This constraint cannot be distributed from the
+   design objects matching 'NET "RDY"' because those design objects do not
+   contain or drive any instances of the correct type.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   3
+
+Total memory usage is 4502372 kilobytes
+
+Writing NGD file "top.ngd" ...
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   8 sec
+
+Writing NGDBUILD log file "top.bld"...

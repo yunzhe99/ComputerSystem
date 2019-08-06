@@ -1,0 +1,603 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: H:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd IO -sd ipcore_dir -nt timestamp -uc CPU/Org-Sword.ucf -p
+xc7k160t-ffg676-1 SCPU.ngc SCPU.ngd
+
+Reading NGO file "H:/labs/OExp06-IP2MCPU/SCPU.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "CPU/Org-Sword.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "clk_100mhz"		LOC = AC18      |>
+   [CPU/Org-Sword.ucf(2)]: NET "clk_100mhz" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "clk_100mhz"		LOC = AC18      |> [CPU/Org-Sword.ucf(2)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(2)]: NET "clk_100mhz" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "RSTN"				LOC = W13       |>
+   [CPU/Org-Sword.ucf(3)]: NET "RSTN" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "RSTN"				LOC = W13       |> [CPU/Org-Sword.ucf(3)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(3)]: NET "RSTN" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "clk_100mhz"		TNM_NET = TM_CLK ;>
+   [CPU/Org-Sword.ucf(4)]: NET "clk_100mhz" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_CLK_100M = PERIOD "TM_CLK"
+    10 ns HIGH 50%;> [CPU/Org-Sword.ucf(5)]: Unable to find an active 'TNM' or
+   'TimeGrp' constraint named 'TM_CLK'.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_clk"			LOC = N26	|>
+   [CPU/Org-Sword.ucf(7)]: NET "led_clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_clk"			LOC = N26	|> [CPU/Org-Sword.ucf(7)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(7)]: NET "led_clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_clrn"			LOC = N24   |>
+   [CPU/Org-Sword.ucf(8)]: NET "led_clrn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_clrn"			LOC = N24   |> [CPU/Org-Sword.ucf(8)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(8)]: NET "led_clrn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_sout"			LOC = M26   |>
+   [CPU/Org-Sword.ucf(9)]: NET "led_sout" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_sout"			LOC = M26   |> [CPU/Org-Sword.ucf(9)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(9)]: NET "led_sout" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "LED_PEN"			LOC = P18   |>
+   [CPU/Org-Sword.ucf(10)]: NET "LED_PEN" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "LED_PEN"			LOC = P18   |> [CPU/Org-Sword.ucf(10)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(10)]: NET "LED_PEN" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "seg_clk"			LOC = M24   |>
+   [CPU/Org-Sword.ucf(12)]: NET "seg_clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg_clk"			LOC = M24   |> [CPU/Org-Sword.ucf(12)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(12)]: NET "seg_clk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "seg_clrn"			LOC = M20   |>
+   [CPU/Org-Sword.ucf(13)]: NET "seg_clrn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg_clrn"			LOC = M20   |> [CPU/Org-Sword.ucf(13)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(13)]: NET "seg_clrn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "seg_sout"			LOC = L24   |>
+   [CPU/Org-Sword.ucf(14)]: NET "seg_sout" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "seg_sout"			LOC = L24   |> [CPU/Org-Sword.ucf(14)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(14)]: NET "seg_sout" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SEG_PEN"			LOC = R18   |>
+   [CPU/Org-Sword.ucf(15)]: NET "SEG_PEN" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG_PEN"			LOC = R18   |> [CPU/Org-Sword.ucf(15)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(15)]: NET "SEG_PEN" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "RDY"				LOC = U21   |>
+   [CPU/Org-Sword.ucf(17)]: NET "RDY" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "RDY"				LOC = U21   |> [CPU/Org-Sword.ucf(17)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(17)]: NET "RDY" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "readn"				LOC = U22   |>
+   [CPU/Org-Sword.ucf(18)]: NET "readn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "readn"				LOC = U22   |> [CPU/Org-Sword.ucf(18)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(18)]: NET "readn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CR"					LOC = V22   |>
+   [CPU/Org-Sword.ucf(19)]: NET "CR" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CR"					LOC = V22   |> [CPU/Org-Sword.ucf(19)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;>
+   [CPU/Org-Sword.ucf(19)]: NET "CR" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "BTN_x[0]" 		LOC = V17   |>
+   [CPU/Org-Sword.ucf(24)]: NET "BTN_x[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "BTN_x[0]" 		LOC = V17   |> [CPU/Org-Sword.ucf(24)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(24)]: NET "BTN_x[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "BTN_x[1]"			LOC = W18   |>
+   [CPU/Org-Sword.ucf(25)]: NET "BTN_x[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "BTN_x[1]"			LOC = W18   |> [CPU/Org-Sword.ucf(25)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(25)]: NET "BTN_x[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "BTN_x[2]"			LOC = W19   |>
+   [CPU/Org-Sword.ucf(26)]: NET "BTN_x[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "BTN_x[2]"			LOC = W19   |> [CPU/Org-Sword.ucf(26)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(26)]: NET "BTN_x[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "BTN_x[3]"			LOC = W15   |>
+   [CPU/Org-Sword.ucf(27)]: NET "BTN_x[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "BTN_x[3]"			LOC = W15   |> [CPU/Org-Sword.ucf(27)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(27)]: NET "BTN_x[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "BTN_x[4]"			LOC = W16   |>
+   [CPU/Org-Sword.ucf(28)]: NET "BTN_x[4]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "BTN_x[4]"			LOC = W16   |> [CPU/Org-Sword.ucf(28)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(28)]: NET "BTN_x[4]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "BTN_y[0]"			LOC = V18   |>
+   [CPU/Org-Sword.ucf(29)]: NET "BTN_y[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "BTN_y[0]"			LOC = V18   |> [CPU/Org-Sword.ucf(29)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(29)]: NET "BTN_y[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "BTN_y[1]"			LOC = V19   |>
+   [CPU/Org-Sword.ucf(30)]: NET "BTN_y[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "BTN_y[1]"			LOC = V19   |> [CPU/Org-Sword.ucf(30)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(30)]: NET "BTN_y[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "BTN_y[2]"			LOC = V14   |>
+   [CPU/Org-Sword.ucf(31)]: NET "BTN_y[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "BTN_y[2]"			LOC = V14   |> [CPU/Org-Sword.ucf(31)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(31)]: NET "BTN_y[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "BTN_y[3]"			LOC = W14   |>
+   [CPU/Org-Sword.ucf(32)]: NET "BTN_y[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "BTN_y[3]"			LOC = W14   |> [CPU/Org-Sword.ucf(32)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS18 ;>
+   [CPU/Org-Sword.ucf(32)]: NET "BTN_y[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[0]"				LOC = AA10  |>
+   [CPU/Org-Sword.ucf(34)]: NET "SW[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[0]"				LOC = AA10  |> [CPU/Org-Sword.ucf(34)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(34)]: NET "SW[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[1]"				LOC = AB10  |>
+   [CPU/Org-Sword.ucf(35)]: NET "SW[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[1]"				LOC = AB10  |> [CPU/Org-Sword.ucf(35)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(35)]: NET "SW[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[2]"				LOC = AA13  |>
+   [CPU/Org-Sword.ucf(36)]: NET "SW[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[2]"				LOC = AA13  |> [CPU/Org-Sword.ucf(36)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(36)]: NET "SW[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[3]"				LOC = AA12  |>
+   [CPU/Org-Sword.ucf(37)]: NET "SW[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[3]"				LOC = AA12  |> [CPU/Org-Sword.ucf(37)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(37)]: NET "SW[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[4]"				LOC = Y13   |>
+   [CPU/Org-Sword.ucf(38)]: NET "SW[4]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[4]"				LOC = Y13   |> [CPU/Org-Sword.ucf(38)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(38)]: NET "SW[4]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[5]"				LOC = Y12   |>
+   [CPU/Org-Sword.ucf(39)]: NET "SW[5]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[5]"				LOC = Y12   |> [CPU/Org-Sword.ucf(39)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(39)]: NET "SW[5]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[6]"				LOC = AD11  |>
+   [CPU/Org-Sword.ucf(40)]: NET "SW[6]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[6]"				LOC = AD11  |> [CPU/Org-Sword.ucf(40)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(40)]: NET "SW[6]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[7]"				LOC = AD10  |>
+   [CPU/Org-Sword.ucf(41)]: NET "SW[7]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[7]"				LOC = AD10  |> [CPU/Org-Sword.ucf(41)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(41)]: NET "SW[7]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[8]"				LOC = AE10  |>
+   [CPU/Org-Sword.ucf(42)]: NET "SW[8]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[8]"				LOC = AE10  |> [CPU/Org-Sword.ucf(42)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(42)]: NET "SW[8]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[9]"				LOC = AE12  |>
+   [CPU/Org-Sword.ucf(43)]: NET "SW[9]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[9]"				LOC = AE12  |> [CPU/Org-Sword.ucf(43)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(43)]: NET "SW[9]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[10]"			LOC = AF12  |>
+   [CPU/Org-Sword.ucf(44)]: NET "SW[10]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[10]"			LOC = AF12  |> [CPU/Org-Sword.ucf(44)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(44)]: NET "SW[10]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[11]"			LOC = AE8   |>
+   [CPU/Org-Sword.ucf(45)]: NET "SW[11]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[11]"			LOC = AE8   |> [CPU/Org-Sword.ucf(45)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(45)]: NET "SW[11]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[12]"			LOC = AF8   |>
+   [CPU/Org-Sword.ucf(46)]: NET "SW[12]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[12]"			LOC = AF8   |> [CPU/Org-Sword.ucf(46)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(46)]: NET "SW[12]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[13]"			LOC = AE13  |>
+   [CPU/Org-Sword.ucf(47)]: NET "SW[13]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[13]"			LOC = AE13  |> [CPU/Org-Sword.ucf(47)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(47)]: NET "SW[13]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[14]"			LOC = AF13  |>
+   [CPU/Org-Sword.ucf(48)]: NET "SW[14]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[14]"			LOC = AF13  |> [CPU/Org-Sword.ucf(48)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(48)]: NET "SW[14]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW[15]"			LOC = AF10  |>
+   [CPU/Org-Sword.ucf(49)]: NET "SW[15]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW[15]"			LOC = AF10  |> [CPU/Org-Sword.ucf(49)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS15 ;>
+   [CPU/Org-Sword.ucf(49)]: NET "SW[15]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:191 - The TNM 'TM_CLK', does not directly or indirectly
+   drive any flip-flops, latches and/or RAMS and cannot be actively used by the
+   referencing Period constraint 'TS_CLK_100M'. If clock manager blocks are
+   directly or indirectly driven, a new TNM constraint will not be derived even
+   though the referencing constraint is a PERIOD constraint unless an output of
+   the clock manager drives flip-flops, latches or RAMs. This TNM is used in the
+   following user PERIOD specification:
+   <TIMESPEC TS_CLK_100M = PERIOD "TM_CLK"  10 ns HIGH 50%;>
+   [CPU/Org-Sword.ucf(5)]
+
+WARNING:ConstraintSystem:197 - The following specification is invalid because
+   the referenced TNM constraint was removed:
+   <TIMESPEC TS_CLK_100M = PERIOD "TM_CLK"  10 ns HIGH 50%;>
+   [CPU/Org-Sword.ucf(5)]
+
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:604 - logical block 'Data_path' with type 'Data_path' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'Data_path' is not supported in target
+   'kintex7'.
+ERROR:NgdBuild:604 - logical block 'SCPU_ctrl' with type 'SCPU_ctrl' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'SCPU_ctrl' is not supported in target
+   'kintex7'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    79
+  Number of warnings:  41
+
+Total memory usage is 4486180 kilobytes
+
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   6 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "SCPU.bld"...

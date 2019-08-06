@@ -1,0 +1,41 @@
+`define DEBUG 2'b0
+
+`define ALUOP_ADDU 4'b0000
+`define ALUOP_SUBU 4'b0001
+`define ALUOP_ORI 4'b0010
+`define ALUOP_AND 4'b0011
+`define ALUOP_SLT 4'b0100
+`define ALUOP_NOR 4'b0101
+`define ALUOP_JR 4'b0110
+`define ALUOP_SRL 4'b0111
+
+`define EXTOP_ZERO 2'b00
+`define EXTOP_SIGNED 2'b01
+`define EXTOP_INST 2'b10
+
+// OP
+`define CTRL_OP_RTYPE 6'b000000
+`define CTRL_OP_ORI 6'b001101
+`define CTRL_OP_LW 6'b100011
+`define CTRL_OP_SW 6'b101011
+`define CTRL_OP_BEQ 6'b000100
+`define CTRL_OP_JAL 6'b000011
+`define CTRL_OP_J 6'b000010
+`define CTRL_OP_ADDI 6'b001000
+`define CTRL_OP_ANDI 6'b001100
+`define CTRL_OP_ORI 6'b001101
+`define CTRL_OP_LUI 6'b001111
+`define CTRL_OP_BNE 6'b000101
+`define CTRL_OP_SLTI 6'b001010
+
+
+// Funct
+`define CTRL_FUNCT_ADDU 6'b100001
+`define CTRL_FUNCT_SUBU 6'b100011
+`define CTRL_FUNCT_SLT 6'b101010
+`define CTRL_FUNCT_AND 6'b100100
+`define CTRL_FUNCT_OR 6'b100101
+`define CTRL_FUNCT_NOR 6'b100111
+
+`define CTRL_FUNCT_SRL 6'b000010
+`define CTRL_FUNCT_JR 6'b001000
